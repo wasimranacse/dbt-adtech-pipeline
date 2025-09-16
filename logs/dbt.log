@@ -1,0 +1,83 @@
+[0m22:17:01.577240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2362453A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2365E7980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B2365E5070>]}
+
+
+============================== 22:17:01.593343 | 50f2f374-4194-4862-9ee9-e83d9e23b5cb ==============================
+[0m22:17:01.593343 [info ] [MainThread]: Running with dbt=1.10.11
+[0m22:17:01.593343 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init .', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\wasim\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m22:18:14.250073 [debug] [MainThread]: Starter project path: C:\Users\wasim\Data Engineering\Interview Prep\Venatus\env\Lib\site-packages\dbt\include\starter_project
+[0m22:18:14.371407 [info ] [MainThread]: 
+Your new dbt project "venatus_adTech" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:18:14.371407 [info ] [MainThread]: Setting up your profile.
+[0m22:25:00.250312 [info ] [MainThread]: Profile venatus_adTech written to C:\Users\wasim\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:25:00.256324 [debug] [MainThread]: Command `dbt init` succeeded at 22:25:00.255320 after 479.11 seconds
+[0m22:25:00.258318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B236BCE840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B237236BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B23734B0E0>]}
+[0m22:25:00.261726 [debug] [MainThread]: Flushing usage events
+[0m22:25:01.956918 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:25:30.496359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E33E6013A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E33E132240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E340CFF230>]}
+
+
+============================== 22:25:30.505881 | 3e53ba6a-8e57-4a5f-a39c-954ea12edc30 ==============================
+[0m22:25:30.505881 [info ] [MainThread]: Running with dbt=1.10.11
+[0m22:25:30.507879 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\wasim\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m22:25:30.573873 [info ] [MainThread]: dbt version: 1.10.11
+[0m22:25:30.574873 [info ] [MainThread]: python version: 3.12.5
+[0m22:25:30.575890 [info ] [MainThread]: python path: C:\Users\wasim\Data Engineering\Interview Prep\Venatus\env\Scripts\python.exe
+[0m22:25:30.577875 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:25:30.592881 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m22:25:30.598884 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m22:25:30.605405 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m22:25:30.726944 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m22:25:30.727943 [info ] [MainThread]: Using profiles dir at C:\Users\wasim\.dbt
+[0m22:25:30.728945 [info ] [MainThread]: Using profiles.yml file at C:\Users\wasim\.dbt\profiles.yml
+[0m22:25:30.730943 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\wasim\Data Engineering\Interview Prep\Venatus\dbt-adtech-pipeline\dbt_project.yml
+[0m22:25:30.731944 [info ] [MainThread]: Configuration:
+[0m22:25:30.732943 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:25:30.734943 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:25:30.735944 [info ] [MainThread]: Required dependencies:
+[0m22:25:30.735944 [debug] [MainThread]: Executing "git --help"
+[0m22:25:30.746945 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m22:25:30.748946 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:25:30.749945 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m22:25:30.751946 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "ecommerce_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+Runtime Error
+  Credentials in profile "endtoendetlpipeline", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+Runtime Error
+  Credentials in profile "lendable_loans_analytics_pipeline", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+Runtime Error
+  Credentials in profile "woo_sales_pipeline", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m22:25:30.752946 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\wasim\Data Engineering\Interview Prep\Venatus\dbt-adtech-pipeline\dbt_project.yml> not found
+
+[0m22:25:30.753947 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m22:25:30.758946 [debug] [MainThread]: Command `dbt debug` failed at 22:25:30.757946 after 0.61 seconds
+[0m22:25:30.759945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E340FEF3E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E34094A0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3423B6FC0>]}
+[0m22:25:30.760946 [debug] [MainThread]: Flushing usage events
+[0m22:25:32.303591 [debug] [MainThread]: An error was encountered while trying to flush usage events
